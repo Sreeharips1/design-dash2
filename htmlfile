@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impulse 5.0</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#about-event">ABOUT</a></li>
+                    <li><a href="#workshops">WORKSHOP</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">REGISTER NOW</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="logo-container">
+            <img src="impulse white.png" alt="Impulse 5.0 Logo">
+            <h1>THE ETERNAL LEGACY</h1>
+            <p class="moving-text">Welcome to Impulse 5.0 - The Ultimate Engineering Event!</p>
+        </div>
+        <section id="about-event" class="content-section">
+            <div class="container">
+                <h2>About Event</h2>
+                <p>IMPULSE 5.0 is the two-day flagship event of IEEE FISAT SB in collaboration with IEEE SPS Kerala Chapter, uniting the engineering community like never before on August 10 and 11. With a four-year track record of success, IMPULSE is a highly anticipated event for engineering students. This year's Techno-Managerial conclave features workshops on Music Signal Processing, Sound Engineering, and Game Development. For non-tech enthusiasts, there are workshops on Dance, Coconut Shell Art, and Social Media Marketing. This year's event promises excitement and innovation, with exciting goodies for participants. Don’t miss your chance to be part of IMPULSE 5.0 – The Eternal Legacy!!</p>
+            </div>
+        </section>
+        <section id="about-host" class="content-section">
+            <div class="container">
+                <h2>About Host</h2>
+                <p>Federal Institute of Science and Technology (FISAT), Angamaly, is a leading educational institution known for its state-of-the-art facilities, dedicated faculty, and talented student body. FISAT's strong track record of hosting successful events showcases their planning and execution. Attendees can anticipate a well-organized event emphasizing innovation, creativity, and collaboration. Conveniently situated in Angamaly, FISAT provides an accessible and dynamic environment, ideal for a diverse range of activities.</p>
+            </div>
+        </section>
+        <section id="workshops" class="content-section">
+            <div class="container">
+                <h2>Workshops</h2>
+                <div class="workshop-container">
+                    <div class="workshop-box">
+                        <h3>Sound Engineering</h3>
+                        <p>Learn the art and science of sound creation and manipulation in this engaging workshop.</p>
+                        <a href="#" class="register-button">Register Now</a>
+                    </div>
+                    <div class="workshop-box">
+                        <h3>Prompt Engineering</h3>
+                        <p>Master the skills needed to create effective prompts for AI and automation.</p>
+                        <a href="#" class="register-button">Register Now</a>
+                    </div>
+                    <div class="workshop-box">
+                        <h3>Dance</h3>
+                        <p>Join us for an energetic workshop on dance techniques and performances.</p>
+                        <a href="#" class="register-button">Register Now</a>
+                    </div>
+                    <div class="workshop-box">
+                        <h3>Social Media Marketing</h3>
+                        <p>Enhance your skills in digital marketing and social media strategy.</p>
+                        <a href="#" class="register-button">Register Now</a>
+                    </div>
+                    <div class="workshop-box">
+                        <h3>Basics of Crochet</h3>
+                        <p>Discover the fundamentals of crochet and create beautiful handmade items.</p>
+                        <a href="#" class="register-button">Register Now</a>
+                    </div>
+                    <div class="workshop-box">
+                        <h3>Game Development</h3>
+                        <p>Get hands-on experience in game design and development with this exciting workshop.</p>
+                        <a href="#" class="register-button">Register Now</a>
+                    </div>
+                    <div class="workshop-box">
+                        <h3>Acting</h3>
+                        <p>Improve your acting skills and stage presence in this interactive workshop.</p>
+                        <a href="#" class="register-button">Register Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="gallery" class="content-section">
+            <div class="container">
+                <h2>Gallery</h2>
+                <div class="gallery-container">
+                    <div class="gallery-slider">
+                        <img src="image1.jpg" alt="Gallery Image 1">
+                        <img src="image2.jpg" alt="Gallery Image 2">
+                        <img src="image3.jpg" alt="Gallery Image 3">
+                        <img src="image4.jpg" alt="Gallery Image 4">
+                        <img src="image5.jpg" alt="Gallery Image 5">
+                    </div>
+                    <button class="gallery-button" id="prev">&#10094;</button>
+                    <button class="gallery-button" id="next">&#10095;</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <button id="back-to-top" onclick="scrollToTop()">Back to Top</button>
+    <div id="chatbot">
+        <button id="chatbot-toggle"><i class="fas fa-comments"></i></button>
+        <div id="chatbot-box" class="hidden">
+            <div class="chat-header">
+                <h3>Chat with Us</h3>
+                <button id="chatbot-close">&times;</button>
+            </div>
+            <div class="chat-body">
+                <div class="chat-message bot-message">Hello! How can I assist you today?</div>
+            </div>
+            <div class="chat-footer">
+                <input type="text" id="chat-input" placeholder="Type your message...">
+                <button id="send-button">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
